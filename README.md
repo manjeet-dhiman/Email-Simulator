@@ -111,3 +111,6 @@ Would you like to do
 : 1
 Email is deleted.
 ```
+
+## Author
+Manjeet Dhiman
