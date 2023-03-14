@@ -112,5 +112,9 @@ Would you like to do
 Email is deleted.
 ```
 
+## License
+GNU General Public License v3.0
+See LICENSE.md for more details.
+
 ## Author
 Manjeet Dhiman
