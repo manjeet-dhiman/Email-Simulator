@@ -3,10 +3,10 @@ A Python program that simulates an email messaging system.
 
 ## Description
 This program simulates a basic email client by populating an inbox list with emails.<br />
-*It takes the contents and email address from the received email to create a new Email object.<br />
-*The inbox can be displayed with the message truncated to the user.<br />
-*The user can open one email and then has the option to mark it as spam or delete it. When an email is opened, its status changes to "read".<br />
-*Additionally, the program has a feature that allows the user to compose an email, which is placed in the outbox.
+* It takes the contents and email address from the received email to create a new Email object.<br />
+* The inbox can be displayed with the message truncated to the user.<br />
+* The user can open one email and then has the option to mark it as spam or delete it. When an email is opened, its status changes to "read".<br />
+* Additionally, the program has a feature that allows the user to compose an email, which is placed in the outbox.
 
 ## Programming principles
 This program practices the programming concept of classes in Object Oriented Programming. Furthermore it employs programming functions such as enumerate, .pop(), append() and a good amount of conditional logic.
