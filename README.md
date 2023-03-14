@@ -113,7 +113,7 @@ Email is deleted.
 ```
 
 ## License
-GNU General Public License v3.0
+GNU General Public License v3.0.<br />
 See LICENSE.md for more details.
 
 ## Author
