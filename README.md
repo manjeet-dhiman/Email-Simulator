@@ -49,5 +49,65 @@ def add_email(from_address, email_contents):
 # returns the number of emails in the inbox
 def get_count():
     return len(inbox)
+```
 
+## Program preview
+```
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[ Email Simulator ]⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+What would you like to do:
+Inbox   - Read whole inbox (read/unread/spam) and perform actions
+Unread  - Return a list of unread emails
+Spam    - Return a list of spam emails
+Send    - Send an email
+Outbox  - Show sent emails
+Quit    - Exit program
+
+inbox
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[ Inbox ]⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+You have 4 emails in your Inbox.
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[ Email number: 1 ]⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+From:           max@gmail.com
+Message:        Are you going to Lun...
+Read:           False
+Spam:           False
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[ Email number: 2 ]⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+From:           steve@gmail.com
+Message:        Thank you for your r...
+Read:           False
+Spam:           False
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[ Email number: 3 ]⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+From:           prince@yahoo.com
+Message:        Hello I am a Nigeria...
+Read:           False
+Spam:           False
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[ Email number: 4 ]⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+From:           bob@outlook.com
+Message:        Are you going to gol...
+Read:           False
+Spam:           False
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+
+
+Select the email number that you would like to open (-1 to go back to main menu): 1
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[ Email 1 ]⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+From:   max@gmail.com
+Read:   True
+Spam:   False
+Message:
+Are you going to Lunch on Wednesday?
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+
+Would you like to do
+1. Delete email
+2. Mark as spam
+3. Exit
+: 1
+Email is deleted.
 ```
